@@ -1,4 +1,4 @@
-package br.com.jusbrasil.freshbooks;
+package com.freshbooks.console;
 
 import java.io.BufferedReader;
 import java.io.FileInputStream;
@@ -8,8 +8,6 @@ import java.io.InputStreamReader;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.Properties;
-
-import br.com.jusbrasil.freshbooks.err.CommandSyntaxError;
 
 import com.freshbooks.ApiConnection;
 

@@ -1,4 +1,4 @@
-package br.com.jusbrasil.freshbooks;
+package com.freshbooks.console;
 
 import com.freshbooks.model.Client;
 

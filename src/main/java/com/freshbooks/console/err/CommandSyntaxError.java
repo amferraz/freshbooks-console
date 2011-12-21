@@ -1,4 +1,4 @@
-package br.com.jusbrasil.freshbooks.err;
+package com.freshbooks.console.err;
 
 public class CommandSyntaxError extends Exception {
   

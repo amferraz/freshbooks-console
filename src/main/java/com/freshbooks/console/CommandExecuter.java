@@ -1,24 +1,21 @@
-package br.com.jusbrasil.freshbooks;
+package com.freshbooks.console;
 
 import java.io.IOException;
-import java.text.DateFormat;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
-import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 import java.util.NoSuchElementException;
 
 import com.freshbooks.ApiConnection;
 import com.freshbooks.ApiException;
+import com.freshbooks.console.err.CommandSyntaxError;
 import com.freshbooks.model.Client;
 import com.freshbooks.model.Invoice;
 import com.freshbooks.model.Recurring;
-import com.freshbooks.model.Recurrings;
 import com.inamik.utils.SimpleTableFormatter;
 import com.inamik.utils.TableFormatter;
 
-import br.com.jusbrasil.freshbooks.err.CommandSyntaxError;
 
 public class CommandExecuter {
 

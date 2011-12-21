@@ -1,4 +1,4 @@
-package br.jusbrasil.com.freshbooks.test.parsing;
+package com.freshbooks.console.test;
 
 import static org.junit.Assert.*;
 
@@ -6,9 +6,10 @@ import java.util.List;
 
 import org.junit.Test;
 
-import br.com.jusbrasil.freshbooks.CommandParser;
-import br.com.jusbrasil.freshbooks.Token;
-import br.com.jusbrasil.freshbooks.TokenType;
+import com.freshbooks.console.CommandParser;
+import com.freshbooks.console.Token;
+import com.freshbooks.console.TokenType;
+
 
 public class TestInvoiceCommandsParsing {
 
