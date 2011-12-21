@@ -1,0 +1,95 @@
+package br.com.jusbrasil.freshbooks;
+
+public enum TokenType {
+  
+  
+  //api methods
+  M_CLIENT_CREATE,
+  M_CLIENT_UPDATE,
+  M_CLIENT_GET,
+  M_CLIENT_DELETE,
+  M_CLIENT_LIST,
+  
+//  M_INVOICE_CREATE,
+  M_INVOICE_UPDATE,
+  M_INVOICE_GET,
+  M_INVOICE_DELETE,
+  M_INVOICE_LIST,
+//  M_ITEM_CREATE,
+//  M_ITEM_UPDATE,
+//  M_ITEM_GET,
+//  M_ITEM_DELETE,
+//  M_ITEM_LIST,
+//  M_PAYMENT_CREATE,
+//  M_PAYMENT_UPDATE,
+//  M_PAYMENT_GET,
+//  M_PAYMENT_DELETE,
+//  M_PAYMENT_LIST,
+//  M_RECURRING_CREATE,
+//  M_RECURRING_UPDATE,
+//  M_RECURRING_GET,
+//  M_RECURRING_DELETE,
+  M_RECURRING_LIST,
+  
+  //pagination params keys
+  KEY_PAGINATION_PAGE,
+  KEY_PAGINATION_PER_PAGE,
+  
+  //get/delete param keys
+  KEY_ID,
+  
+  
+  //param keys
+  KEY_EMAIL,
+  KEY_USERNAME,
+  KEY_UPDATED_FROM,
+  KEY_UPDATED_TO,
+  KEY_FOLDER,
+  KEY_NOTES,
+  KEY_ORGANIZATION,
+  KEY_RECURRING_ID,
+  KEY_CLIENT_ID,
+  KEY_STATUS,
+  KEY_DATE,
+  KEY_DATE_FROM,
+  KEY_DATE_TO,
+  
+  
+  //needs testing
+  KEY_FIRST_NAME,
+  KEY_LAST_NAME,
+  KEY_PASSWORD,
+  KEY_WORK_PHONE,
+  KEY_HOME_PHONE,
+  KEY_MOBILE,
+  KEY_FAX,
+  KEY_PRIMARY_STREET_1,
+  KEY_PRIMARY_STREET_2,
+  KEY_PRIMARY_CITY,
+  KEY_PRIMARY_STATE,
+  KEY_PRIMARY_COUNTRY,
+  KEY_PRIMARY_CODE,
+  KEY_SECONDARY_STREET_1,
+  KEY_SECONDARY_STREET_2,
+  KEY_SECONDARY_CITY,
+  KEY_SECONDARY_STATE,
+  KEY_SECONDARY_COUNTRY,
+  KEY_SECONDARY_CODE, //zip code
+  
+  
+  //this separates search parameters from listing parameters
+  KEY_SHOW,
+  
+
+  
+  //param values
+  T_INTEGER,
+  T_REAL,
+  T_DATE,
+  T_HOUR,
+  T_TEXT,
+  
+  
+  
+  
+}

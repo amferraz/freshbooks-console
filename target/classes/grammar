@@ -1,0 +1,11 @@
+
+s := client_list| client_get | invoice_list | invoice_delete | invoice_update
+
+client_list    := M_CLIENT_LIST KEY_SHOW client_keys
+client_get     := M_CLIENT_GET KEY_ID T_INTEGER
+invoice_list   := M_INVOICE_LIST
+invoice_delete := M_INVOICE_DELETE KEY_ID T_INTEGER
+invoice_update := M_INVOICE_UPDATE KEY_ID T_INTEGER KEY_DATE T_DATE
+client_keys    := ( | ) *
+
+
